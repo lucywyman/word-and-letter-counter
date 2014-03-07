@@ -36,7 +36,7 @@ int main(){
 }
 
 void getInput(){
-    char sentence[100];
+    char sentence[101];
     cout<<"Please input a string less than 100 characters.  If you enter more than one hundred characters, we will only output data on the first hundred characters:  ";
     cin.getline(sentence, 100);
     countLetters(sentence);
